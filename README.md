@@ -13,7 +13,7 @@ The evaluation comprises the following four tasks:
 
 - **Task II**: Classical Graph Neural Network: Training classical GNNs on Quark-Gluons dataset.
   - The two architectures I chose were:
-    - A custom architecture comprising of GCNN and GAT layers. I achieved a validation ROC-AUC score of 0.85 and a training ROC-AUC of 0.8458.
+    - A custom architecture comprising of GCN and GAT layers. I achieved a validation ROC-AUC score of 0.85 and a training ROC-AUC of 0.8458.
     - ParticleNet - The ParticleNet architecture given in the paper (https://arxiv.org/abs/1902.08570), achieved a validation ROC-AUC of 0.85 and a training ROC-AUC of 0.8495.
 
 - **Task III**: My opinion on Quantum Computing.
