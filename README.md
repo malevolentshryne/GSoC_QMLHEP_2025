@@ -1,4 +1,3 @@
-
 # QMLHEP GSoC'25 Evaluation Task
 
 # GSoC 2025 Evaluation Task - QMLHEP
@@ -10,13 +9,26 @@ This repository contains the evaluation task for Google Summer of Code 2025 unde
 The evaluation comprises the following four tasks:
 
 - **Task I**: Quantum Computing Part: Implement Some Basic Quantum Operations.
+  - I implemented the circuits as asked in the task, using PennyLane.
+
 - **Task II**: Classical Graph Neural Network: Training classical GNNs on Quark-Gluons dataset.
+  - The two architectures I chose were:
+    - A custom architecture comprising of GCNN and GAT layers. I achieved a validation ROC-AUC score of 0.85 and a training ROC-AUC of 0.8458.
+    - ParticleNet - The ParticleNet architecture given in the paper (https://arxiv.org/abs/1902.08570), achieved a validation ROC-AUC of 0.85 and a training ROC-AUC of 0.8495.
+
 - **Task III**: My opinion on Quantum Computing.
+  - I've shared my thoughts and experiences with quantum machine learning, including personal experiences.
+
 - **Task IX**: Training Classical KAN and discussing potential ideas for a Quantum KAN architecture.
+  - I implemented Efficient KAN (https://github.com/Blealtan/efficient-kan) and BSRBF KAN (https://arxiv.org/abs/2406.11173), achieving a test F1 score of 0.9819.
+  - Then, I explained the potential ideas for a Quantum KAN architecture:
+    - Quantum Chebyshev KAN using block encodings (https://arxiv.org/abs/2410.04435).
+    - Possibility of a Novel Quantum Fourier KAN.
+
+The detailed description of the task is in the notebooks.
 
 ## Requirements
 To run the notebooks, ensure you have the following dependencies installed:
-
 - Python 3.8+
 - PennyLane
 - Qiskit
@@ -32,7 +44,7 @@ pip install pennylane qiskit numpy matplotlib jupyter
 ## How to Use
 1. Clone this repository:
    ```bash
-   git clone https://github.com/malevolentshryne/GSoC_QMLHEP_2025. git
+   git clone https://github.com/malevolentshryne/GSoC_QMLHEP_2025.git
    cd GSoC_QMLHEP_2025
    ```
 2. Launch Jupyter Notebook:
@@ -56,3 +68,4 @@ pip install pennylane qiskit numpy matplotlib jupyter
 For any questions or clarifications, feel free to reach out via email or the project discussion forum.
 
 ---
+
