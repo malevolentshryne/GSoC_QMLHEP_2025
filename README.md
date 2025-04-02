@@ -4,7 +4,7 @@
 # GSoC 2025 Evaluation Task - QMLHEP
 
 ## Overview
-This repository contains the evaluation task for Google Summer of Code 2025 under the **QMLHEP** (Quantum Machine Learning for High Energy Physics) project. The task consists of four Jupyter notebooks implementing different quantum machine learning methodologies for high-energy physics problems.
+This repository contains the evaluation task for Google Summer of Code 2025 under the **QMLHEP** (Quantum Machine Learning for High Energy Physics) project. The task consists of Jupyter notebooks for the solutions of the tasks.
 
 ## Task Breakdown
 The evaluation comprises the following four tasks:
